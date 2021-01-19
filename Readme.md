@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Ramil Bagmanov](https://up.htmlacademy.ru/htmlcss/30/user/559895).
-* Наставник: `Неизвестно`.
+* Наставник: [Амина Омарова](https://htmlacademy.ru/profile/ami)
 
 ---
 
