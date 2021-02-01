@@ -15,20 +15,18 @@
               <li> <a href="blank.html">клиенты</a></li>
               <li> <a href="catalog.html">магазин</a></li>
               <li> <a href="blank.html">контакты</a></li>
-              <li> <a href="blank.html">корзинка</a></li>
+              <li> <a href="blank.html">корзина</a></li>
             </ul>
           </nav>
           <h1>Магазин готовых шаблонов</h1>
     </header>
     <main>
-        <section>
+          <form>
             <h2>Фильтр</h2>
-            <form>
-                <section>
                     <fieldset>
                         <h2>Стоимость</h2>
-                        <img src="https://via.placeholder.com/150x100" alt="левый ползунок" width="20" height="23">
-                        <img src="https://via.placeholder.com/150x100" alt="Правый ползунок" width="20" height="23">
+                        от <input class="min-price" type="text" value="0">
+                        до <input class="max-price" type="text" value="15 000">
                         <p>
                             <label for="from">ОТ</label>
                             <input id="from" type="text" name="from" placeholder="0" value="0">
@@ -42,7 +40,7 @@
                 <legend>Сетка:</legend> 
                     <ul>
                         <li>
-                            <input id="adaptive" type="radio" name="option" value="" checked disabled>
+                            <input id="adaptive" type="radio" name="option" value="" checked>
                             <label for="adaptive">Адаптивная</label>
                         </li>
                         <li>
@@ -59,7 +57,7 @@
                 <legend>Особенности:</legend>
                     <ul>
                         <li>
-                            <input type="checkbox" name="slider" id="slider" checked disabled>
+                            <input type="checkbox" name="slider" id="slider" checked>
                             <label for="slider">Слайдер</label>
                         </li>
                         <li>
@@ -67,7 +65,7 @@
                             <label for="advantages">Блок Преимуществ</label>
                         </li>
                         <li>
-                            <input type="checkbox" name="news" id="news" checked disabled>
+                            <input type="checkbox" name="news" id="news" checked>
                             <label for="news">Новости</label>
                         </li>
                         <li>
@@ -81,31 +79,28 @@
                         </ul>
                 </fieldset>
                 <button type="submit">Показать</button>
-                </section>
             </form>
-        </section>
+        
         <section>
-        <h2>Наши партнеры</h2>
-        <b>СОРТИРОВКА</b>
+        <h2>Наши шаблоны</h2>
+        <b>СОРТИРОВАТЬ</b>
         <ul>
             <li>
-                <a href="#">По цене</a>
+                <button>По цене</button>
             </li>
             <li>
-                <a href="#">По типу</a>
+               <button>По типу</button>
             </li>
             <li>
-                <a href="#">По названию</a>
+                <button>По названию</button>
             </li>
         </ul>
-        <p>
             <button class="button-down" type="button">
                 <span>От большего к меньшему</span>
             </button>
             <button class="button-up" type="button">
                 <span>От меньшего к большему</span>
             </button>
-        </p>
         </section>
         <section>
             <ul>
@@ -203,7 +198,8 @@
         </ul>
         <h3>Давайте дружить, это выгодно!</h3>
         <span>Скидка 10% для друзей из социальных сетей.</span>
-      </footer>    
+        <h2>Напишите нам</h2>
+      </footer>
 </body>
 
 </html>

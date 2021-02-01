@@ -9,35 +9,37 @@
   <header>
     <nav>
       <img src="https://via.placeholder.com/150x100" alt="logo">
-      <ul>
+      <ul class="menu">
         <li> <a href="blank.html">студия</a></li>
         <li> <a href="blank.html">клиенты</a></li>
         <li> <a href="catalog.html">магазин</a></li>
         <li> <a href="blank.html">контакты</a></li>
-        <li> <a href="blank.html">корзинка</a></li>
+        <li> <a href="blank.html">корзина</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section>
-      <h2>Преимущества</h2>
-      <input type="radio" id="product-1" name="toggle" checked>
-      <input type="radio" id="product-2" name="toggle">
-      <input type="radio" id="product-3" name="toggle">
-      <label for="product-1">первый</label>
-      <label for="product-2">второй</label>
-      <label for="product-3">третий</label>
-    </section>
-    <section>
-      <ul>
-        <li>
-          <h2>Долго, дорого, скрупулезно.</h2>
-              <p>Математически выверенный дизайн
-              для вашего сайта или мобильного приложения.</p>
-              <a href="#">Узнать больше</a>
-        </li>
-      </ul>>
-    </section>
+      <div class= slide-first>
+        <p>Долго, дорого, скрупулезно.</p>
+        <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+        <a href="#" class="btn slide-btn">Узнать больше</a>
+        <img src="https://via.placeholder.com/150x100" alt="Веб сайты" width="760" height="431">
+      </div>
+
+      <div class="slide second">
+        <p>Долго, дорого, скрупулезно.</p>
+        <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+        <a href="#" class="btn slide-btn">Узнать больше</a>
+        <img src="https://via.placeholder.com/150x100" alt="Веб сайты" width="760" height="431">
+      </div>
+
+      <div class="slide third">
+        <p class="slide-title">Долго, дорого, скрупулезно.</p>
+        <p class="slide-text">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+        <a href="#" class="btn slide-btn">Узнать больше</a>
+        <img src="https://via.placeholder.com/150x100" alt="Веб сайты" width="760" height="431">
+      </div>
+      
     <section>
       <h2>Наши услуги</h2>
       <ul>
@@ -61,27 +63,20 @@
         </li>
       </ul>
     </section>
+
     <section>
+      <div>
       <h2>Мы —  маленькая, но гордая дизайн-студия из Краснодара.</h2>
       <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
       <h3>Выполняем заказы на разработку:</h3>
       <ul>
-        <li>
-          <p>
-            Выполняем заказы на разработку:
-          </p>
-        </li>
-        <li>
-          <p>
-            Мобильных приложений для iOS и Android
-          </p>
-        </li>
-        <li>
-          <p>
-            Слайдшоу и видео для корпоративных презентаций
-          </p>
-        </li>
+        <li>Выполняем заказы на разработку:</li>
+        <li>Мобильных приложений для iOS и Android</li>
+        <li>Слайдшоу и видео для корпоративных презентаций</li>
       </ul>
+      </div>
+
+      <div>
       <h3>Наша статистика</h3>
       <img src="https://via.placeholder.com/150x100" alt="Веб сайты" width="300" height="146">
       <b> с 2004 года Любим точность во всем:</b>
@@ -107,7 +102,9 @@
           </tr>
         </tbody>
       </table>
+      </div>
     </section>
+
     <section>
       <h3>Наши партнеры</h3>
       <ul>
@@ -135,11 +132,11 @@
     </section>
     <section>
       <h3>Карта</h3>
-    </section>
-    <section>
       <h3>NЁRDS DESIGN STUDIO</h3>
       <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-      <a href="tel:+78122757575">+7 (812) 275-75-75</a>
+      <p class= "contacts-phone">тел. +7 (812) 275-75-75</p>
+      <a href="#" class="btn contacts-btn">Напишите нам</a>
+
     </section>
   </main>
   <footer>
@@ -156,10 +153,7 @@
     </ul>
     <h3>Давайте дружить, это выгодно!</h3>
     <span>Скидка 10% для друзей из социальных сетей.</span>
-  </footer>
-  <section>
     <h2>Напишите нам</h2>
-  </section>
-
+  </footer>
   </body>
 </html>
