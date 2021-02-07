@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>catalog</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="https://via.placeholder.com/150x100" alt="logo">
+            </a>
+            <ul>
+              <li> <a href="blank.html">студия</a></li>
+              <li> <a href="blank.html">клиенты</a></li>
+              <li> <a href="catalog.html">магазин</a></li>
+              <li> <a href="blank.html">контакты</a></li>
+              <li> <a href="blank.html">корзина</a></li>
+            </ul>
+          </nav>
+          <h1>Магазин готовых шаблонов</h1>
+    </header>
+    <main>
+          <form>
+            <h2>Фильтр</h2>
+                    <fieldset>
+                        <h2>Стоимость</h2>
+                        от <input class="min-price" type="text" value="0">
+                        до <input class="max-price" type="text" value="15 000">
+                        <p>
+                            <label for="from">ОТ</label>
+                            <input id="from" type="text" name="from" placeholder="0" value="0">
+                        </p>
+                         <p>
+                            <label for="before">ДО</label>
+                            <input id="before" type="text" name="before" placeholder="15000" value="15000">
+                        </p>     
+                </fieldset>
+                <fieldset>
+                <legend>Сетка:</legend> 
+                    <ul>
+                        <li>
+                            <input id="adaptive" type="radio" name="option" value="" checked>
+                            <label for="adaptive">Адаптивная</label>
+                        </li>
+                        <li>
+                            <input id="fixed" type="radio" name="option" value="">
+                            <label for="fixed">Фиксированная</label>
+                        </li>
+                        <li>
+                            <input id="rubber" type="radio" name="option" value="">
+                            <label for="rubber">Резиновая</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                <legend>Особенности:</legend>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="slider" id="slider" checked>
+                            <label for="slider">Слайдер</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="advantages" id="advantages">
+                            <label for="advantages">Блок Преимуществ</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="news" id="news" checked>
+                            <label for="news">Новости</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="gallery" id="gallery">
+                            <label for="gallery">Галерея</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="basked" id="basked">
+                            <label for="basked">Корзина</label>
+                        </li>
+                        </ul>
+                </fieldset>
+                <button type="submit">Показать</button>
+            </form>
+        
+        <section>
+        <h2>Наши шаблоны</h2>
+        <b>СОРТИРОВАТЬ</b>
+        <ul>
+            <li>
+                <button>По цене</button>
+            </li>
+            <li>
+               <button>По типу</button>
+            </li>
+            <li>
+                <button>По названию</button>
+            </li>
+        </ul>
+            <button class="button-down" type="button">
+                <span>От большего к меньшему</span>
+            </button>
+            <button class="button-up" type="button">
+                <span>От меньшего к большему</span>
+            </button>
+        </section>
+        <section>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h2>Седона</h2>
+                        <img src="https://via.placeholder.com/150x100" alt="Седона" width="360" height="576">
+                        <h3>SEDONA</h3>
+                        <p>Информационный сайт для туристов</p>
+                        <span>9 900 руб</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h2>Pink</h2>
+                        <img src="https://via.placeholder.com/150x100" alt="pink" width="360" height="576">
+                        <h3>PINK APP</h3>
+                        <p>Продуктовый лендинг приложения для iOS и Android</p>
+                        <span>9 900руб</span>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h2>Borodinski</h2>
+                        <img src="https://via.placeholder.com/150x100" alt="Седона" width="360" height="576">
+                        <h3>Barbershop</h3>
+                        <p>Сайт салоны красоты. Для мужчин, да.</p>
+                        <span>9 900 руб</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h2>Mishka</h2>
+                            <img src="https://via.placeholder.com/150x100" alt="Седона" width="360" height="576">
+                            <h3>MISHKA</h3>
+                            <p>Интернет-магазин вязаных игрушек</p>
+                            <span>9 900 руб</span>
+                    </a>    
+                </li>
+                <li>
+                    <a href="#">
+                        <h2>A Plus</h2>
+                            <img src="https://via.placeholder.com/150x100" alt="Седона" width="360" height="576">
+                            <h3>A Plus</h3>
+                            <p>Лендинг курсов повышения квалификации</p>
+                            <span>9 900 руб</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h2>Кваст</h2>
+                            <img src="https://via.placeholder.com/150x100" alt="Седона" width="360" height="576">
+                            <h3>КВАСТ</h3>
+                            <p>Промо-сайт производителя крафтового кваса</p>
+                            <span>9 900 руб</span>
+                    </a>       
+                </li>
+            </ul> 
+            <ul>
+                <li>
+                    <a href="#">1</a>
+                </li>
+                <li>
+                    <a href="#">2</a>
+                </li>
+                <li>
+                    <a href="#">3</a>
+                </li>
+                <li>
+                    <a href="#">Следущая</a>
+                </li>
+            </ul>   
+        </section>
+            <h2>Карта</h2>
+        <section>
+            <h3>NЁRDS DESIGN STUDIO</h3>
+            <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+            <span>тел. +7 (812) 275-75-75</span>
+            <a href="window-catalog.html">Напишите нам</a>
+        </section>
+
+    </main>
+    <footer>
+        <ul>
+          <li>
+            <a href="#">Vk</a>
+          </li>
+          <li>
+            <a href="#">Facebook</a>
+          </li>
+          <li>
+            <a href="#">Instagram </a>
+          </li>
+        </ul>
+        <h3>Давайте дружить, это выгодно!</h3>
+        <span>Скидка 10% для друзей из социальных сетей.</span>
+        <h2>Напишите нам</h2>
+      </footer>
+</body>
+
+</html>
